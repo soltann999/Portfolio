@@ -1,12 +1,12 @@
 @font-face {
-  font-family: 'Merienda';
+  font-family: Merienda;
   src: url('../font/Merienda-VariableFont_wght.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 body{
   color: #e4e4e4;
-  font-family: Arial;
+  font-family: Merienda;
   padding: 0px;
   margin: 0px;
   background-color: black;
