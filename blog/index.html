@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="icon" href="../logo2N.png">
+    <link rel="stylesheet" href="css.css">
+    <script src="js.js"></script>
+    <title>Personal Blog</title>
+  </head>
+  <body id="body">
+    <header id="header">
+      <a href="../index.html"><button id="home_btn" type="button" class="home_btn">Home</button></a>
+      <select id="theme" class="Themes" name="Themes"style="float: right;" onchange="theme(this)">
+        <option value="black" onclick="night()">Night</option>
+        <option value="white" onclick="day()">Day</option>
+      </select>
+      <button id="addPostBtn" type="button" class="home_btn" style="float: right;" onclick="show()">Add Post</button>
+    </header>
+
+  <div id="modal" class="modal" align="center">
+    <div id="modalContent" class="modalContent">
+      <h2>Add New Post</h2>
+      <form id="postForm" class="postForm">
+        <label for="password">Password</label>
+        <input type="password" name="" value="" id="password">
+        <p class="wrongpassword" style="color:red;" id="wrongpassword" align="center">Wrong Password</p>
+        <label for="content">Content</label>
+        <textarea class="content" id="content" name="content" rows="6" placeholder="Write your post here..." required></textarea>
+
+        <button type="button" id="submitBtn" class="buttons" onclick="post()">Save Post</button>
+        <button type="button" id="cancelBtn" class="buttons" onmousedown="hide()">Cancel</button>
+      </form>
+    </div>
+  </div>
+
+
+
+
+
+
+<div align="center">
+  <div class="post" id="forms">
+    <h4 class="time_date" style="float: left;">03:45AM</h4><h4 class="post_date" style="float: left; margin-left:5px;">10/07/2025</h4><h4 style="float: left; margin-left:5px;" class="post_tag">#Fitness</h4><br><br><br>
+    <p align="left" class="post_text">Google Fonts makes it easy to bring personality and performance to your websites and products. Our robust catalog of open-source fonts and icons makes it easy to integrate expressive type and icons seamlessly — no matter where you are in the world.</p>
+  </div>
+
+  <div class="post" id="forms">
+    <h4 class="time_date" style="float: left;">03:45AM</h4><h4 class="post_date" style="float: left; margin-left:5px;">10/07/2025</h4><h4 style="float: left; margin-left:5px;" class="post_tag">#Fitness</h4><br><br><br>
+    <p align="left" class="post_text">Google Fonts makes it easy to bring personality and performance to your websites and products. Our robust catalog of open-source fonts and icons makes it easy to integrate expressive type and icons seamlessly — no matter where you are in the world.</p>
+  </div>
+
+  <div class="post" id="forms">
+    <h4 class="time_date" style="float: left;">03:45AM</h4><h4 class="post_date" style="float: left; margin-left:5px;">10/07/2025</h4><h4 style="float: left; margin-left:5px;" class="post_tag">#Fitness</h4><br><br><br>
+    <p align="left" class="post_text">Google Fonts makes it easy to bring personality and performance to your websites and products. Our robust catalog of open-source fonts and icons makes it easy to integrate expressive type and icons seamlessly — no matter where you are in the world.</p>
+  </div>
+
+  <div class="post" id="forms">
+    <h4 class="time_date" style="float: left;">03:45AM</h4><h4 class="post_date" style="float: left; margin-left:5px;">10/07/2025</h4><h4 style="float: left; margin-left:5px;" class="post_tag">#Fitness</h4><br><br><br>
+    <p align="left" class="post_text">Google Fonts makes it easy to bring personality and performance to your websites and products. Our robust catalog of open-source fonts and icons makes it easy to integrate expressive type and icons seamlessly — no matter where you are in the world.</p>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+</html>

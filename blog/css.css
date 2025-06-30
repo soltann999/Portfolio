@@ -1,0 +1,156 @@
+@font-face {
+  font-family: 'Merienda';
+  src: url('../font/Merienda-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+  color: #e4e4e4;
+  font-family: Math;
+  padding: 0px;
+  margin: 0px;
+  background-color: black;
+  font-family: 'Merienda';
+}
+
+@media only screen and (max-width:600px){
+  body{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+  }
+  h2{
+    font-size: 20px;
+  }
+  .modal{
+  }
+  .post{
+    margin-right: 105px;
+
+  }
+}
+button{
+  font-family: Merienda;
+}
+header{
+  position: fixed;
+  top: 0;
+  height: 8%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
+}
+
+.home_btn{
+  box-shadow: 0 .5px 10px 0 white;
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+  transition-duration: 0.3s;
+  height: 100%;
+  font-size: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+.home_btn:hover{
+  box-shadow: 0 3px 10px 0 white;
+}
+.home_btn a{
+  color: white;
+}
+select{
+  box-shadow: 0 .5px 10px 0 white;
+  height: 100%;
+  font-size: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: black;
+  color: white;
+  font-family: Merienda;
+  border-radius: 10px;
+}
+a{
+  text-decoration: none;
+}
+
+.post{
+  float: center;
+  border: white 1px solid;
+  height: auto;
+  width: 90%;
+  margin-top: 80px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.post_text{
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
+/* Modal background */
+.modal{
+  display: none;/* hidden by default */
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(2px);
+  justify-content: center;
+  align-items: center;
+}
+.wrongpassword{
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+/* Modal content box */
+.modalContent {
+  background: #121212;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+  color: white;
+  font-family: 'Akaya Telivigala', cursive, sans-serif;
+  box-shadow: 0 3px 10px 0 white;
+}
+
+/* Form inputs */
+input, textarea {
+  width: 100%;
+  margin-top: 8px;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+/* Buttons */
+.buttons {
+  margin-top: 12px;
+  padding: 10px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  font-family: inherit;
+}
+
+.submitBtn {
+  background-color: #00ff87;
+  color: #121212;
+  font-weight: bold;
+}
+
+.cancelBtn {
+  background-color: #444;
+  color: white;
+  margin-left: 10px;
+}
