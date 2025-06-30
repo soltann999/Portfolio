@@ -1,0 +1,194 @@
+@font-face {
+  font-family: 'Merienda';
+  src: url('../font/Merienda-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+  color: #e4e4e4;
+  font-family: Merienda;
+  padding: 0px;
+  margin: 0px;
+  background-color: black;
+}
+@media only screen and (max-width:600px){
+  body{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+  }
+  h2{
+    font-size: 20px;
+  }
+
+}
+.prj_description{
+white-space: normal;
+overflow-wrap: break-word;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  height: 8%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
+}
+button{
+  font-family: Merienda;
+}
+.blog_btn{
+  box-shadow: 0 .5px 10px 0 white;
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+  transition-duration: 0.3s;
+  height: 100%;
+  font-size: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+.blog_btn:hover{
+  box-shadow: 0 3px 10px 0 white;
+}
+select{
+  box-shadow: 0 .5px 10px 0 white;
+  height: 100%;
+  font-size: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  font-family: Merienda;
+}
+.row_one{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 18px;
+}
+.download-btn{
+  box-shadow: 0 .5px 10px 0 white;
+  background-color: black;
+  color: white;
+  font-size: 90%;
+  width: 200px;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+}
+.row_two{
+  box-shadow: 0 .5px 10px 0 white;
+  padding-bottom: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border: #1a1a1a solid .5px;
+  font-size: 18px;
+}
+
+.aa{
+  text-decoration: none;
+  margin-top: 20px;
+}
+a.aa{
+  color: white;
+}
+
+.cert-a{
+  color: #e0e0e0;
+}
+.prj-btn{
+  box-shadow: 0 .5px 10px 0 white;
+  display: inline-block;
+  font-size: 90%;
+  width: 150px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+.row_three{
+  box-shadow: 0 .5px 10px 0 white;
+  padding-bottom: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border: #1a1a1a solid .5px;
+  font-size: 18px;
+}
+
+
+.inline{
+  display: inline-block;
+  margin: 20px 20px 20px 20px;
+}
+.inline-no-margin{
+  display: inline-block;
+}
+.row_four{
+  box-shadow: 0 .5px 10px 0 white;
+  padding-top: ;
+  padding-bottom: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border: #1a1a1a solid .5px;
+}
+.row-five{
+  padding-top: ;
+  padding-bottom: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border: #1a1a1a solid .5px;
+}
+.card{
+  display: inline-block;
+  width: 25%;
+  margin: 20px 20px 20px 20px;
+}
+.card-elements{
+  margin: 20px 20px 20px 20px;
+
+}
+.card-elements-title{
+
+}
+.card-elements-p{
+  font-size: 20px;
+}
+.card-elements-price{
+  font-size: 40px;
+}
+.card-img{
+  height: 100%;
+  width: 100%;
+}
